@@ -82,7 +82,7 @@ p_neutroM = 'a ( 1 ) = a';
 
 disp('Neutro multiplicativo');
 a=43;
-a(1)
+a*(1)
 
 %Inverso aditivo
 p_inversoA = 'a +( -a )= 0';
@@ -105,8 +105,8 @@ p_transitiva2 = 'si a = b y b = c | a = c';
 
 disp('Propiedad transitiva');
 a=8;
-b=9;
-c=13;
+b=35;
+c=3;
 a>b
 b>c
 a>c
@@ -119,7 +119,7 @@ p_tricotomia3 = 'a < b';
  
 disp('Tricotomia(raiz del algebra');
 a=17;
-b=24;
+b=40;
 a>b
 a=b
 a<b
