@@ -104,9 +104,9 @@ p_transitiva = 'si a > b y b >c | a > c';
 p_transitiva2 = 'si a = b y b = c | a = c';
 
 disp('Propiedad transitiva');
-a=8;
-b=35;
-c=3;
+a=43;
+b=25;
+c=12;
 a>b
 b>c
 a>c
@@ -120,10 +120,11 @@ p_tricotomia3 = 'a < b';
 disp('Tricotomia(raiz del algebra');
 a=17;
 b=40;
-a>b
+a>b 
 a=b
 a<b
 
-%Signos de agrupacion
-s_agrupacion = '{ [ ( ) ] }';
+
+
+
 
