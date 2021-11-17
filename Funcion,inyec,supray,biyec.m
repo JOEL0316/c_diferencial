@@ -4,7 +4,7 @@
 %Author            :Joel Emmanuel De La Cruz Rodriguez
 %Date              :20211116
 %Version           :1
-%Usage             :C:\Users\Leo\Documents\DocumentosOctave\Funcion,inyec,suoray,biyec.m
+%Usage             :C:\Users\Leo\Documents\DocumentosOctave\Funcion,inyec,sobrey,biyec.m
 %Notes             :Requiere aplicacion obtave
 
 clear
