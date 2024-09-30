@@ -124,6 +124,11 @@ a>b
 a=b
 a<b
 
+%Trocotomia (raiz del álgebra)
+p_tricotomia = 'a > b';
+p_tricotomia2 = 'a == b';
+p_tricotomia3 = 'a < b';
+
 
 
 
