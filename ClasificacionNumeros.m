@@ -130,6 +130,31 @@ p_tricotomia2 = 'a == b';
 p_tricotomia3 = 'a < b';
 
 
+c_numeros_Naturales = 'N={1,2,3....N} si n > 0';
+c_numeros_Enteros = 'Z={-n...,-2, -1, 0 ,1, 2,...n}';
+c_numeros_Racionales = 'Q= {m/n donde m,n ER n =/ 0}';
+c_numeros_irracionales = 'I = {?n que no puede ser expresada como Q todas las raices que n son exactas';
+c_numeros_Reales ='R={I, Q, Z, N}';
+
+%Propiedaes de los numeros, sean a,b,c,d,e ER
+
+%Propiedades de E(Cerradura)
+p_cerradura = 'a + b ER';
+p_cerradura2 = 'a * b ER';
+p_cerradura3 = '7 + 9 EN';
+
+disp('Axiomas algebraicos');
+disp('Propiedad de Cerradura');
+a=3;
+b=5;
+a+b
+a*b
+
+%Propiedad asociativa
+p_asociativa = 'a + ( b + c ) = (a + b ) + c';
+p_asociativa2 ='a *( b * c ) = ( a * b ) c';
+p_asociativa3 = '3 + ( 8 - 10 ) = ( 8 + 3 ) -10';
+
 
 
 
