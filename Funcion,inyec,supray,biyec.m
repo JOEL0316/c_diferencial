@@ -80,7 +80,7 @@ ser inyectiva y sobreyectiva,aspectos que cumple perfectamente,
 para ser inyectiva podemos ver que cada elemento del contardominio 
 le corresponde un solo elemento del dominio y para la sobreyectiva
 nos indica que  cuando  a  todo  elemento  del  contradominio  le
-corresponde uno o más elementos del dominio,por lo tanto es biyectiva')
+corresponde uno o mÃ¡s elementos del dominio,por lo tanto es biyectiva')
 %Dominio de la funcion.........
 x = -32:1:45;
 %Regla de correspondencia
@@ -95,9 +95,9 @@ legend("Funcion Biyectiva");
 
 
 disp('Esta funcion es Sobreyectiva por que cuando  a  todo  elemento  del  contradominio  le
-corresponde uno o más elementos del dominio. No deben sobrar elementos en
+corresponde uno o mÃ¡s elementos del dominio. No deben sobrar elementos en
 el contradominio,no importa  que  algunos elementos del contradominio sean
-imágenes de más de un elemento del dominio y por que la grafica
+imÃ¡genes de mÃ¡s de un elemento del dominio y por que la grafica
  va de abajo hacia arriva o viceversa y por lo que vi en algunos videos si pasa esto 
  es Sobreyectiva')
 %Dominio de la funcion.........
@@ -111,7 +111,18 @@ xlabel(" x ");
 title(" Funcion f(x)=(x^4+1)/(x^3)  ");
 legend("Funcion Sobreyectiva");
 
-
+disp ('Esta funcion no es ni inyectiva,ni sobreyectiva
+por lo tanto tampoco es biyectiva,esta funcion es cuadratica')
+%Dominio de la funcion.........
+g = -20:1:20;
+%Regla de correspondencia
+gx = (g.^2);
+%Plotear funcion
+plot(g,gx);
+ylabel(" y ");
+xlabel(" x ");
+title(" Funcion  g(x)=x^2 ");
+legend("Funcion No Sobreyectiva y 
 
 
 
